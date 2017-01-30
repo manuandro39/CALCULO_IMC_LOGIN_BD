@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BERECHNUNG_BMI_ANMELDUNG</string>
+    <string name="weight">IHR GEWICHT (kg): </string>
+    <string name="height">IHRE HÖHE (cms): </string>
+    <string name="calcula_imc">BERECHNEN SIE IHREN BMI: </string>
+    <string name="your_imc">IHREN BMI IST: </string>
+    <string name="state">STAAT: </string>
+    <string name="imc_state">BMI / STAAT</string>
+    <string name="tabla_valores">TABELLENWERTE BMI / STAAT</string>
+    <string name="retornar_pag_principal">ZURUCK ZUR HAUPTER SEITE</string>
+    <string name="obesidad">FETTLEIBIGKEIT</string>
+    <string name="sobrepeso">ÜBERGEWICHT</string>
+    <string name="normal">NORMAL</string>
+    <string name="bajo_peso">UNTERGEWICHT</string>
+    <string name="desnutrido">UNTERERNÄHRT</string>
+    <string name="gototabla_valores">GEH ZUR TABELLENWERTE</string>
+    <string name="mensaje_bienvenida">Kennen Sie Ihren Body-Mass-Index und Ernährungsstatus</string>
+    <string name="el_imc">BMI</string>
+    <string name="y">UND</string>
+    <string name="usuario">Benutzer</string>
+    <string name="password">Kennwort</string>
+    <string name="login">Protokollierung</string>
+    <string name="registro">Anmeldung</string>
+    <string name="tituloreg">Registrierung Panel Anwender</string>
+    <string name="nomusu">Benutzername...</string>
+    <string name="pass">Kennwort...</string>
+</resources>

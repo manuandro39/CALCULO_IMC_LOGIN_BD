@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mespada.logueo_calculo_imc.TableActivity"
+    android:background="@color/colorAccent" >
+
+    <TextView
+        android:text="@string/tabla_valores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTablaValores"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnVolverTable"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorDark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:text="@string/retornar_pag_principal"/>
+
+    <ListView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tabla_valores"
+        android:dividerHeight="3dp"
+        android:background="@android:color/white"
+        android:divider="@color/colorPrimaryDark"
+        android:layout_below="@+id/txtTablaValores"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+</RelativeLayout>

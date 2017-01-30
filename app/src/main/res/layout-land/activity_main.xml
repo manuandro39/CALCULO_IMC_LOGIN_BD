@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context="com.example.mespada.logueo_calculo_imc.MainActivity"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent" >
+
+    <TextView
+        android:text="@string/mensaje_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDark"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/txtMensajeBienvenida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:textAlignment="center" />
+
+    <TextView android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:text="@string/height"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtAltura"
+        android:visibility="visible"
+        android:textAlignment="center"
+        android:ems="10"
+        android:background="@android:color/white"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/txtPeso"
+        android:layout_alignStart="@+id/txtPeso" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/weight"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/txtMensajeBienvenida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtPeso"
+        android:text=""
+        android:visibility="visible"
+        tools:textSize="18sp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:background="@android:color/white"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignRight="@+id/btn_tablavalores"
+        android:layout_alignEnd="@+id/btn_tablavalores" />
+
+    <Button
+        android:text="@string/gototabla_valores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tablavalores"
+        android:background="@color/colorDark"
+        android:textColor="@color/white"
+        android:layout_marginRight="74dp"
+        android:layout_marginEnd="74dp"
+        android:layout_alignBaseline="@+id/btn_calculo"
+        android:layout_alignBottom="@+id/btn_calculo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_calculo"
+        android:background="@color/colorDark"
+        android:textColor="@color/white"
+        android:text="@string/calcula_imc"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+</RelativeLayout>

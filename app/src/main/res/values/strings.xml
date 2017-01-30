@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Logueo_Calculo_IMC</string>
+    <string name="weight">TU PESO (kg): </string>
+    <string name="height">TU ALTURA (cms): </string>
+    <string name="calcula_imc">CALCULA TU IMC: </string>
+    <string name="your_imc">TU IMC ES: </string>
+    <string name="state">ESTADO: </string>
+    <string name="imc_state">IMC / ESTADO</string>
+    <string name="tabla_valores">TABLA VALORES IMC / ESTADO</string>
+    <string name="retornar_pag_principal">VOLVER A LA PAGINA INICIAL</string>
+    <string name="obesidad">OBESIDAD</string>
+    <string name="sobrepeso">SOBREPESO</string>
+    <string name="normal">NORMAL</string>
+    <string name="bajo_peso">BAJO PESO</string>
+    <string name="desnutrido">DESNUTRIDO</string>
+    <string name="gototabla_valores">IR A LA TABLA DE VALORES</string>
+    <string name="mensaje_bienvenida">Conoce tu Indice de Masa Corporal y Estado Nutricional</string>
+    <string name="el_imc">IMC</string>
+    <string name="y">Y</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="registro">Registrarse</string>
+    <string name="tituloreg">Panel de registro de usuario</string>
+    <string name="nomusu">Nombre de Usuario...</string>
+    <string name="pass">Contraseña...</string>
+</resources>

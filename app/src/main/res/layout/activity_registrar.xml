@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registrar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mespada.logueo_calculo_imc.RegistrarActivity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:text="@string/tituloreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="19dp"
+        android:textSize="20sp"
+        android:id="@+id/txtPanel" />
+
+    <TextView
+        android:text="@string/password"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRegUsuario"
+        android:layout_alignLeft="@+id/txtRegUsuario"
+        android:layout_alignStart="@+id/txtRegUsuario"
+        android:layout_marginTop="66dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorDark"
+        android:id="@+id/txtRegPassword" />
+        <!--android:layout_toStartOf="@+id/edtRegPassword"-->
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nomusu"
+        android:ems="10"
+        android:layout_marginRight="5dp"
+        android:id="@+id/edtRegUsuario"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/txtRegUsuario"
+        android:layout_alignLeft="@+id/edtRegPassword"
+        android:layout_alignStart="@+id/edtRegPassword" />
+        <!--android:layout_toEndOf="@+id/txtRegPassword"-->
+
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/pass"
+        android:ems="10"
+        android:layout_marginRight="5dp"
+        android:id="@+id/edtRegPassword"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/txtRegPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorDark"
+        android:id="@+id/txtRegUsuario"
+        android:layout_below="@+id/txtPanel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRegPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:background="@color/colorDark"
+        android:textColor="@color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:onClick="Registro"
+        android:id="@+id/btnRegistrarse" />
+
+
+</RelativeLayout>
